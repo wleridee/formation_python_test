@@ -1,0 +1,803 @@
+[
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 0,
+    "fichier": "chapitre_0.md",
+    "titre": "Avant-Propos: Bienvenue dans l'univers de React",
+    "description": "Introduction à la formation et aux objectifs pédagogiques.",
+    "niveau": "special",
+    "dependances": [],
+    "sidebar_position": 0,
+    "type": "special"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 1,
+    "fichier": "chapitre_1.md",
+    "titre": "Introduction à React et au concept de Single Page Application (SPA)",
+    "description": "Comprendre ce qu'est React, ses avantages et le principe des applications monopage.",
+    "niveau": "junior",
+    "dependances": [
+      0
+    ],
+    "sidebar_position": 1,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 2,
+    "fichier": "chapitre_2.md",
+    "titre": "Installation et Configuration de l'Environnement de Développement",
+    "description": "Mise en place de Node.js, npm/Yarn, et création d'un projet React avec Vite ou Create React App.",
+    "niveau": "junior",
+    "dependances": [
+      1
+    ],
+    "sidebar_position": 2,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 3,
+    "fichier": "chapitre_3.md",
+    "titre": "Comprendre JSX: Syntaxe et Règles Fondamentales",
+    "description": "Apprendre la syntaxe JSX, comment elle se compile en JavaScript et ses règles d'écriture.",
+    "niveau": "junior",
+    "dependances": [
+      2
+    ],
+    "sidebar_position": 3,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 4,
+    "fichier": "chapitre_4.md",
+    "titre": "Les Composants Fonctionnels: Création et Structure",
+    "description": "Définir et organiser des composants fonctionnels, blocs de construction des applications React.",
+    "niveau": "junior",
+    "dependances": [
+      3
+    ],
+    "sidebar_position": 4,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 5,
+    "fichier": "chapitre_5.md",
+    "titre": "Les Props: Passer des Données aux Composants",
+    "description": "Utiliser les props pour rendre les composants réutilisables et dynamiques.",
+    "niveau": "junior",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 5,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 6,
+    "fichier": "chapitre_6.md",
+    "titre": "Le State Local avec `useState`: Gérer l'État Interne des Composants",
+    "description": "Introduire le hook `useState` pour gérer les données qui changent dans un composant.",
+    "niveau": "junior",
+    "dependances": [
+      5
+    ],
+    "sidebar_position": 6,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 7,
+    "fichier": "chapitre_7.md",
+    "titre": "Gestion des Événements: Interagir avec l'Utilisateur",
+    "description": "Apprendre à répondre aux interactions utilisateur (clics, saisies) avec des gestionnaires d'événements.",
+    "niveau": "junior",
+    "dependances": [
+      6
+    ],
+    "sidebar_position": 7,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 8,
+    "fichier": "chapitre_8.md",
+    "titre": "Rendu Conditionnel: Afficher ou Masquer des Éléments",
+    "description": "Techniques pour afficher des composants ou des éléments JSX en fonction de conditions.",
+    "niveau": "junior",
+    "dependances": [
+      6
+    ],
+    "sidebar_position": 8,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 9,
+    "fichier": "chapitre_9.md",
+    "titre": "Rendu de Listes: Afficher des Collections d'Éléments (avec la prop `key`)",
+    "description": "Afficher des listes de données dynamiques et l'importance de la prop `key`.",
+    "niveau": "junior",
+    "dependances": [
+      6
+    ],
+    "sidebar_position": 9,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 10,
+    "fichier": "chapitre_10.md",
+    "titre": "Stylisation des Composants React: CSS pur, Modules CSS et Styles Inline",
+    "description": "Différentes approches pour appliquer des styles à vos composants React.",
+    "niveau": "junior",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 10,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 11,
+    "fichier": "chapitre_11.md",
+    "titre": "Les Formulaires Contrôlés: Gérer les Inputs Utilisateur",
+    "description": "Implémenter des formulaires où l'état des inputs est contrôlé par React.",
+    "niveau": "junior",
+    "dependances": [
+      7
+    ],
+    "sidebar_position": 11,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 12,
+    "fichier": "chapitre_12.md",
+    "titre": "Introduction à React Router: Navigation Simple",
+    "description": "Mettre en place la navigation côté client avec React Router pour les SPA.",
+    "niveau": "junior",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 12,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 13,
+    "fichier": "chapitre_13.md",
+    "titre": "Le Hook `useEffect`: Gérer les Effets de Bord et la Synchronisation",
+    "description": "Utiliser `useEffect` pour les opérations asynchrones, les abonnements et les manipulations du DOM.",
+    "niveau": "confirmé",
+    "dependances": [
+      6
+    ],
+    "sidebar_position": 13,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 14,
+    "fichier": "chapitre_14.md",
+    "titre": "Nettoyage des Effets avec `useEffect`: Prévention des Fuites de Mémoire",
+    "description": "Apprendre à nettoyer les effets de bord pour éviter les problèmes de performance et les bugs.",
+    "niveau": "confirmé",
+    "dependances": [
+      13
+    ],
+    "sidebar_position": 14,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 15,
+    "fichier": "chapitre_15.md",
+    "titre": "Le Contexte API et `useContext`: Partage d'État Global Simple",
+    "description": "Utiliser le Context API pour éviter le \"prop drilling\" et partager des données globalement.",
+    "niveau": "confirmé",
+    "dependances": [
+      5
+    ],
+    "sidebar_position": 15,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 16,
+    "fichier": "chapitre_16.md",
+    "titre": "Le Hook `useReducer`: Gestion d'État Complexe avec un Reducer",
+    "description": "Gérer l'état complexe des composants avec `useReducer` pour une logique prédictible.",
+    "niveau": "confirmé",
+    "dependances": [
+      6
+    ],
+    "sidebar_position": 16,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 17,
+    "fichier": "chapitre_17.md",
+    "titre": "Créer des Hooks Personnalisés: Réutiliser la Logique d'État",
+    "description": "Développer vos propres hooks pour encapsuler et réutiliser la logique d'état et d'effets.",
+    "niveau": "confirmé",
+    "dependances": [
+      13,
+      16
+    ],
+    "sidebar_position": 17,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 18,
+    "fichier": "chapitre_18.md",
+    "titre": "Les Refs avec `useRef`: Accéder aux Éléments du DOM et Valeurs Mutables",
+    "description": "Utiliser `useRef` pour interagir directement avec le DOM et stocker des valeurs mutables.",
+    "niveau": "confirmé",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 18,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 19,
+    "fichier": "chapitre_19.md",
+    "titre": "Les Portails React: Rendre du Contenu Hors de la Hiérarchie DOM",
+    "description": "Utiliser les portails pour rendre des enfants dans un nœud DOM en dehors du parent.",
+    "niveau": "confirmé",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 19,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 20,
+    "fichier": "chapitre_20.md",
+    "titre": "Les Boundaries d'Erreur: Capturer les Erreurs de l'Interface Utilisateur",
+    "description": "Implémenter des composants de boundary d'erreur pour gérer les erreurs de rendu.",
+    "niveau": "confirmé",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 20,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 21,
+    "fichier": "chapitre_21.md",
+    "titre": "Optimisation de la Performance avec `React.memo`",
+    "description": "Améliorer la performance des composants fonctionnels en les mémorisant avec `React.memo`.",
+    "niveau": "confirmé",
+    "dependances": [
+      5
+    ],
+    "sidebar_position": 21,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 22,
+    "fichier": "chapitre_22.md",
+    "titre": "Optimisation de la Performance avec `useCallback`",
+    "description": "Utiliser `useCallback` pour mémoriser des fonctions et éviter des rendus inutiles.",
+    "niveau": "confirmé",
+    "dependances": [
+      7,
+      13
+    ],
+    "sidebar_position": 22,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 23,
+    "fichier": "chapitre_23.md",
+    "titre": "Optimisation de la Performance avec `useMemo`",
+    "description": "Utiliser `useMemo` pour mémoriser des calculs coûteux et éviter des recalculs inutiles.",
+    "niveau": "confirmé",
+    "dependances": [
+      13
+    ],
+    "sidebar_position": 23,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 24,
+    "fichier": "chapitre_24.md",
+    "titre": "Requêtes HTTP: `fetch` et `axios` avec `useEffect`",
+    "description": "Effectuer des requêtes réseau pour récupérer et envoyer des données à une API.",
+    "niveau": "confirmé",
+    "dependances": [
+      13
+    ],
+    "sidebar_position": 24,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 25,
+    "fichier": "chapitre_25.md",
+    "titre": "Gestion Avancée du Routage avec React Router: Routes Imbriquées et Paramètres",
+    "description": "Explorer des schémas de routage plus complexes avec des routes enfants et des paramètres d'URL.",
+    "niveau": "confirmé",
+    "dependances": [
+      12
+    ],
+    "sidebar_position": 25,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 26,
+    "fichier": "chapitre_26.md",
+    "titre": "Navigation Programmatique avec React Router",
+    "description": "Déclencher des changements de route par programme en réponse à des actions utilisateur.",
+    "niveau": "confirmé",
+    "dependances": [
+      25
+    ],
+    "sidebar_position": 26,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 27,
+    "fichier": "chapitre_27.md",
+    "titre": "Styles Avancés: Styled Components et Emotion",
+    "description": "Découvrir les bibliothèques CSS-in-JS pour une stylisation dynamique et component-based.",
+    "niveau": "confirmé",
+    "dependances": [
+      10
+    ],
+    "sidebar_position": 27,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 28,
+    "fichier": "chapitre_28.md",
+    "titre": "Introduction aux Tests Unitaires: Jest et React Testing Library",
+    "description": "Écrire des tests pour vos composants React afin d'assurer leur bon fonctionnement.",
+    "niveau": "confirmé",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 28,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 29,
+    "fichier": "chapitre_29.md",
+    "titre": "Stratégies de Gestion d'État Globales (Introduction)",
+    "description": "Vue d'ensemble des différentes approches pour gérer l'état à l'échelle de l'application.",
+    "niveau": "senior",
+    "dependances": [
+      15
+    ],
+    "sidebar_position": 29,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 30,
+    "fichier": "chapitre_30.md",
+    "titre": "Redux Toolkit: Introduction et Configuration",
+    "description": "Premiers pas avec Redux Toolkit pour une gestion d'état prédictible et simplifiée.",
+    "niveau": "senior",
+    "dependances": [
+      29
+    ],
+    "sidebar_position": 30,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 31,
+    "fichier": "chapitre_31.md",
+    "titre": "Redux Toolkit: Création de Slices et Gestion des Actions",
+    "description": "Définir des \"slices\" Redux pour organiser la logique d'état et les actions associées.",
+    "niveau": "senior",
+    "dependances": [
+      30
+    ],
+    "sidebar_position": 31,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 32,
+    "fichier": "chapitre_32.md",
+    "titre": "Redux Toolkit: Async Thunks pour les Effets de Bord",
+    "description": "Gérer les opérations asynchrones comme les requêtes API avec Redux Thunk via Redux Toolkit.",
+    "niveau": "senior",
+    "dependances": [
+      31,
+      24
+    ],
+    "sidebar_position": 32,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 33,
+    "fichier": "chapitre_33.md",
+    "titre": "Introduction au Server-Side Rendering (SSR) et Static Site Generation (SSG)",
+    "description": "Comprendre les concepts de rendu côté serveur pour l'amélioration des performances et du SEO.",
+    "niveau": "senior",
+    "dependances": [
+      24
+    ],
+    "sidebar_position": 33,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 34,
+    "fichier": "chapitre_34.md",
+    "titre": "Next.js: Premiers Pas et Structure de Projet",
+    "description": "Découvrir Next.js, le framework React pour la production, et sa structure de base.",
+    "niveau": "senior",
+    "dependances": [
+      33,
+      12
+    ],
+    "sidebar_position": 34,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 35,
+    "fichier": "chapitre_35.md",
+    "titre": "Next.js: Stratégies de Data Fetching (getServerSideProps, getStaticProps)",
+    "description": "Implémenter différentes méthodes de récupération de données côté serveur et statique avec Next.js.",
+    "niveau": "senior",
+    "dependances": [
+      34
+    ],
+    "sidebar_position": 35,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 36,
+    "fichier": "chapitre_36.md",
+    "titre": "Next.js: Création d'API Routes",
+    "description": "Développer des API endpoints directement dans votre projet Next.js.",
+    "niveau": "senior",
+    "dependances": [
+      34,
+      24
+    ],
+    "sidebar_position": 36,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 37,
+    "fichier": "chapitre_37.md",
+    "titre": "React 18: Les Server Components (Introduction)",
+    "description": "Comprendre les Server Components et leur rôle dans la nouvelle architecture de React.",
+    "niveau": "senior",
+    "dependances": [
+      4,
+      33
+    ],
+    "sidebar_position": 37,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 38,
+    "fichier": "chapitre_38.md",
+    "titre": "Suspense et `React.lazy`: Code Splitting et Chargement Différé",
+    "description": "Optimiser le chargement des applications en divisant le code et en chargeant les composants à la demande.",
+    "niveau": "senior",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 38,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 39,
+    "fichier": "chapitre_39.md",
+    "titre": "Le Mode Concurrent de React 18: Principes et Avantages",
+    "description": "Explorer les bases du mode concurrent de React pour une meilleure réactivité de l'UI.",
+    "niveau": "senior",
+    "dependances": [
+      38
+    ],
+    "sidebar_position": 39,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 40,
+    "fichier": "chapitre_40.md",
+    "titre": "`useTransition` et `useDeferredValue`: Améliorer l'Expérience Utilisateur",
+    "description": "Utiliser ces hooks pour gérer les mises à jour non bloquantes et prioriser les rendus.",
+    "niveau": "senior",
+    "dependances": [
+      39
+    ],
+    "sidebar_position": 40,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 41,
+    "fichier": "chapitre_41.md",
+    "titre": "Accessibilité (A11Y) en React: Bonnes Pratiques",
+    "description": "Rendre vos applications React accessibles à tous les utilisateurs, y compris ceux ayant des handicaps.",
+    "niveau": "senior",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 41,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 42,
+    "fichier": "chapitre_42.md",
+    "titre": "Internationalisation (i18n): Gérer les Différentes Langues",
+    "description": "Implémenter la prise en charge de plusieurs langues dans une application React.",
+    "niveau": "senior",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 42,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 43,
+    "fichier": "chapitre_43.md",
+    "titre": "Patterns d'Authentification et d'Autorisation",
+    "description": "Mettre en œuvre des stratégies de gestion des utilisateurs et de leurs permissions.",
+    "niveau": "senior",
+    "dependances": [
+      24,
+      15
+    ],
+    "sidebar_position": 43,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 44,
+    "fichier": "chapitre_44.md",
+    "titre": "Conception de Systèmes de Design avec React",
+    "description": "Construire des bibliothèques de composants réutilisables pour une cohérence visuelle.",
+    "niveau": "senior",
+    "dependances": [
+      27
+    ],
+    "sidebar_position": 44,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 45,
+    "fichier": "chapitre_45.md",
+    "titre": "Internes de React: Le Virtual DOM et le Processus de Réconciliation",
+    "description": "Plongée approfondie dans le fonctionnement interne de React et comment il met à jour le DOM.",
+    "niveau": "expert",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 45,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 46,
+    "fichier": "chapitre_46.md",
+    "titre": "L'Architecture Fiber de React",
+    "description": "Comprendre la nouvelle architecture de React, ses avantages pour le rendu asynchrone.",
+    "niveau": "expert",
+    "dependances": [
+      45
+    ],
+    "sidebar_position": 46,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 47,
+    "fichier": "chapitre_47.md",
+    "titre": "Comprendre le Scheduler de React",
+    "description": "Explorer comment React priorise et planifie le travail de rendu avec le scheduler.",
+    "niveau": "expert",
+    "dependances": [
+      39,
+      46
+    ],
+    "sidebar_position": 47,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 48,
+    "fichier": "chapitre_48.md",
+    "titre": "Debugging Avancé et Profiling des Applications React",
+    "description": "Maîtriser les outils de développement pour diagnostiquer et résoudre les problèmes de performance.",
+    "niveau": "expert",
+    "dependances": [
+      23
+    ],
+    "sidebar_position": 48,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 49,
+    "fichier": "chapitre_49.md",
+    "titre": "Sécurité des Applications React: Prévention des Vulnérabilités Courantes",
+    "description": "Identifier et atténuer les risques de sécurité comme les attaques XSS et l'injection.",
+    "niveau": "expert",
+    "dependances": [
+      43
+    ],
+    "sidebar_position": 49,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 50,
+    "fichier": "chapitre_50.md",
+    "titre": "Intégration de WebAssembly et Web Workers avec React",
+    "description": "Explorer l'utilisation de WebAssembly et Web Workers pour des performances extrêmes dans React.",
+    "niveau": "expert",
+    "dependances": [
+      24
+    ],
+    "sidebar_position": 50,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 51,
+    "fichier": "chapitre_51.md",
+    "titre": "Micro-Frontends avec React: Stratégies d'Intégration",
+    "description": "Concevoir et construire des architectures micro-frontends en utilisant React.",
+    "niveau": "expert",
+    "dependances": [
+      44
+    ],
+    "sidebar_position": 51,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "latest",
+    "contexte": "Formation générale",
+    "numero": 52,
+    "fichier": "chapitre_52.md",
+    "titre": "Aller Plus Loin: Ressources et Projet Final",
+    "description": "Ressources supplémentaires, projets avancés et exercices d'application pour consolider les acquis.",
+    "niveau": "special",
+    "dependances": [
+      51
+    ],
+    "sidebar_position": 52,
+    "type": "special"
+  }
+]
