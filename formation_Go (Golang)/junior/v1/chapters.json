@@ -1,0 +1,705 @@
+[
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 0,
+    "fichier": "chapitre_0.md",
+    "titre": "Avant-propos",
+    "description": "Introduction au langage Go, philosophie et objectifs de la formation.",
+    "niveau": "special",
+    "dependances": [],
+    "sidebar_position": 0,
+    "type": "special"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 1,
+    "fichier": "chapitre_1.md",
+    "titre": "Installation et environnement",
+    "description": "Installation, configuration du GOPATH et premier programme Hello World.",
+    "niveau": "junior",
+    "dependances": [
+      0
+    ],
+    "sidebar_position": 1,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 2,
+    "fichier": "chapitre_2.md",
+    "titre": "Structure d'un projet Go",
+    "description": "Structure d'un projet, fichiers .go et packages.",
+    "niveau": "junior",
+    "dependances": [
+      1
+    ],
+    "sidebar_position": 2,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 3,
+    "fichier": "chapitre_3.md",
+    "titre": "Variables et types de base",
+    "description": "Déclaration de variables, constantes et types de base.",
+    "niveau": "junior",
+    "dependances": [
+      2
+    ],
+    "sidebar_position": 3,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 4,
+    "fichier": "chapitre_4.md",
+    "titre": "Opérateurs et expressions",
+    "description": "Opérateurs arithmétiques, logiques et de comparaison.",
+    "niveau": "junior",
+    "dependances": [
+      3
+    ],
+    "sidebar_position": 4,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 5,
+    "fichier": "chapitre_5.md",
+    "titre": "Entrées et sorties avec fmt",
+    "description": "Utilisation de fmt pour les entrées/sorties standard.",
+    "niveau": "junior",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 5,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 6,
+    "fichier": "chapitre_6.md",
+    "titre": "Structures conditionnelles",
+    "description": "Instructions if, else et switch.",
+    "niveau": "junior",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 6,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 7,
+    "fichier": "chapitre_7.md",
+    "titre": "Boucles et itérations",
+    "description": "Boucles for et itération sur les collections.",
+    "niveau": "junior",
+    "dependances": [
+      6
+    ],
+    "sidebar_position": 7,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 8,
+    "fichier": "chapitre_8.md",
+    "titre": "Fonctions de base",
+    "description": "Déclaration et appel de fonctions.",
+    "niveau": "junior",
+    "dependances": [
+      3
+    ],
+    "sidebar_position": 8,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 9,
+    "fichier": "chapitre_9.md",
+    "titre": "Pointeurs et références",
+    "description": "Passage par valeur vs passage par référence (pointeurs).",
+    "niveau": "junior",
+    "dependances": [
+      8
+    ],
+    "sidebar_position": 9,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 10,
+    "fichier": "chapitre_10.md",
+    "titre": "Tableaux et Slices",
+    "description": "Utilisation des tableaux et slices.",
+    "niveau": "junior",
+    "dependances": [
+      3
+    ],
+    "sidebar_position": 10,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 11,
+    "fichier": "chapitre_11.md",
+    "titre": "Maps et dictionnaires",
+    "description": "Création et manipulation de maps.",
+    "niveau": "junior",
+    "dependances": [
+      3
+    ],
+    "sidebar_position": 11,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 12,
+    "fichier": "chapitre_12.md",
+    "titre": "Structures (struct)",
+    "description": "Définition de structures personnalisées.",
+    "niveau": "junior",
+    "dependances": [
+      3
+    ],
+    "sidebar_position": 12,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 13,
+    "fichier": "chapitre_13.md",
+    "titre": "Méthodes et récepteurs",
+    "description": "Méthodes associées aux structures.",
+    "niveau": "junior",
+    "dependances": [
+      12
+    ],
+    "sidebar_position": 13,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 14,
+    "fichier": "chapitre_14.md",
+    "titre": "Interfaces de base",
+    "description": "Introduction aux interfaces.",
+    "niveau": "junior",
+    "dependances": [
+      13
+    ],
+    "sidebar_position": 14,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 15,
+    "fichier": "chapitre_15.md",
+    "titre": "Gestion des erreurs",
+    "description": "Gestion des erreurs avec le type error.",
+    "niveau": "junior",
+    "dependances": [
+      14
+    ],
+    "sidebar_position": 15,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 16,
+    "fichier": "chapitre_16.md",
+    "titre": "Defer et nettoyage",
+    "description": "Utilisation de defer pour le nettoyage.",
+    "niveau": "junior",
+    "dependances": [
+      15
+    ],
+    "sidebar_position": 16,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 17,
+    "fichier": "chapitre_17.md",
+    "titre": "Panic et Recover",
+    "description": "Gestion des panic et recover.",
+    "niveau": "junior",
+    "dependances": [
+      16
+    ],
+    "sidebar_position": 17,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 18,
+    "fichier": "chapitre_18.md",
+    "titre": "Gestion des dépendances",
+    "description": "Gestion des modules avec go.mod.",
+    "niveau": "junior",
+    "dependances": [
+      2
+    ],
+    "sidebar_position": 18,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 19,
+    "fichier": "chapitre_19.md",
+    "titre": "Manipulation de chaînes",
+    "description": "Utilisation de la bibliothèque standard strings.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 19,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 20,
+    "fichier": "chapitre_20.md",
+    "titre": "Gestion du temps",
+    "description": "Utilisation de la bibliothèque standard time.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 20,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 21,
+    "fichier": "chapitre_21.md",
+    "titre": "Interaction avec le système d'exploitation",
+    "description": "Utilisation de la bibliothèque standard os.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 21,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 22,
+    "fichier": "chapitre_22.md",
+    "titre": "Entrées/Sorties fichiers",
+    "description": "Utilisation de la bibliothèque standard io.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 22,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 23,
+    "fichier": "chapitre_23.md",
+    "titre": "Gestion des chemins de fichiers",
+    "description": "Utilisation de la bibliothèque standard path/filepath.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 23,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 24,
+    "fichier": "chapitre_24.md",
+    "titre": "Encodage JSON",
+    "description": "Utilisation de la bibliothèque standard encoding/json.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 24,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 25,
+    "fichier": "chapitre_25.md",
+    "titre": "Client HTTP de base",
+    "description": "Utilisation de la bibliothèque standard net/http.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 25,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 26,
+    "fichier": "chapitre_26.md",
+    "titre": "Manipulation d'URLs",
+    "description": "Utilisation de la bibliothèque standard net/url.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 26,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 27,
+    "fichier": "chapitre_27.md",
+    "titre": "Tri de collections",
+    "description": "Utilisation de la bibliothèque standard sort.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 27,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 28,
+    "fichier": "chapitre_28.md",
+    "titre": "Opérations mathématiques",
+    "description": "Utilisation de la bibliothèque standard math.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 28,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 29,
+    "fichier": "chapitre_29.md",
+    "titre": "Synchronisation de base",
+    "description": "Utilisation de la bibliothèque standard sync.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 29,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 30,
+    "fichier": "chapitre_30.md",
+    "titre": "Arguments en ligne de commande",
+    "description": "Utilisation de la bibliothèque standard flag.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 30,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 31,
+    "fichier": "chapitre_31.md",
+    "titre": "Journalisation (Logging)",
+    "description": "Utilisation de la bibliothèque standard log.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 31,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 32,
+    "fichier": "chapitre_32.md",
+    "titre": "Manipulation de buffers d'octets",
+    "description": "Utilisation de la bibliothèque standard bytes.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 32,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 33,
+    "fichier": "chapitre_33.md",
+    "titre": "Lecture/Écriture bufferisée",
+    "description": "Utilisation de la bibliothèque standard bufio.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 33,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 34,
+    "fichier": "chapitre_34.md",
+    "titre": "Introduction au contexte",
+    "description": "Utilisation de la bibliothèque standard context.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 34,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 35,
+    "fichier": "chapitre_35.md",
+    "titre": "Introduction à la réflexion",
+    "description": "Utilisation de la bibliothèque standard reflect.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 35,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 36,
+    "fichier": "chapitre_36.md",
+    "titre": "Tests unitaires",
+    "description": "Utilisation de la bibliothèque standard testing.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 36,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 37,
+    "fichier": "chapitre_37.md",
+    "titre": "Benchmarks",
+    "description": "Tests de performance (benchmarks).",
+    "niveau": "junior",
+    "dependances": [
+      36
+    ],
+    "sidebar_position": 37,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 38,
+    "fichier": "chapitre_38.md",
+    "titre": "Tests d'intégration",
+    "description": "Tests d'intégration simples.",
+    "niveau": "junior",
+    "dependances": [
+      36
+    ],
+    "sidebar_position": 38,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 39,
+    "fichier": "chapitre_39.md",
+    "titre": "Réseau de base (TCP/UDP)",
+    "description": "Utilisation de la bibliothèque standard net.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 39,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 40,
+    "fichier": "chapitre_40.md",
+    "titre": "Hachage de données",
+    "description": "Utilisation de la bibliothèque standard crypto/sha256.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 40,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 41,
+    "fichier": "chapitre_41.md",
+    "titre": "Modèles HTML",
+    "description": "Utilisation de la bibliothèque standard html/template.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 41,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 42,
+    "fichier": "chapitre_42.md",
+    "titre": "Modèles de texte",
+    "description": "Utilisation de la bibliothèque standard text/template.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 42,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 43,
+    "fichier": "chapitre_43.md",
+    "titre": "Accès aux bases de données",
+    "description": "Utilisation de la bibliothèque standard database/sql.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 43,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 44,
+    "fichier": "chapitre_44.md",
+    "titre": "Compression ZIP",
+    "description": "Utilisation de la bibliothèque standard archive/zip.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 44,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 45,
+    "fichier": "chapitre_45.md",
+    "titre": "Traitement d'images de base",
+    "description": "Utilisation de la bibliothèque standard image.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 45,
+    "type": "standard"
+  },
+  {
+    "technologie": "Go (Golang)",
+    "version": "1.22",
+    "contexte": "Apprentissage du langage Go pour les débutants souhaitant développer des applications performantes et scalables.",
+    "numero": 46,
+    "fichier": "chapitre_46.md",
+    "titre": "Aller plus loin",
+    "description": "Ressources, bonnes pratiques et projet final.",
+    "niveau": "junior",
+    "dependances": [
+      45
+    ],
+    "sidebar_position": 46,
+    "type": "standard"
+  }
+]
