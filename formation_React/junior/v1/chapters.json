@@ -1,0 +1,720 @@
+[
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 0,
+    "fichier": "chapitre_0.md",
+    "titre": "Avant-propos",
+    "description": "Introduction au parcours d'apprentissage React 18.x.",
+    "niveau": "special",
+    "dependances": [],
+    "sidebar_position": 0,
+    "type": "special"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 1,
+    "fichier": "chapitre_1.md",
+    "titre": "Introduction à React",
+    "description": "Comprendre le rôle de React et le DOM virtuel.",
+    "niveau": "junior",
+    "dependances": [
+      0
+    ],
+    "sidebar_position": 1,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 2,
+    "fichier": "chapitre_2.md",
+    "titre": "Installation et environnement",
+    "description": "Configuration de l'environnement avec Vite et Node.js.",
+    "niveau": "junior",
+    "dependances": [
+      1
+    ],
+    "sidebar_position": 2,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 3,
+    "fichier": "chapitre_3.md",
+    "titre": "Syntaxe JSX",
+    "description": "Syntaxe JSX et règles de base.",
+    "niveau": "junior",
+    "dependances": [
+      2
+    ],
+    "sidebar_position": 3,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 4,
+    "fichier": "chapitre_4.md",
+    "titre": "Composants fonctionnels",
+    "description": "Création de composants fonctionnels simples.",
+    "niveau": "junior",
+    "dependances": [
+      3
+    ],
+    "sidebar_position": 4,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 5,
+    "fichier": "chapitre_5.md",
+    "titre": "Utilisation des Props",
+    "description": "Passage de données via les props.",
+    "niveau": "junior",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 5,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 6,
+    "fichier": "chapitre_6.md",
+    "titre": "Rendu conditionnel",
+    "description": "Rendu conditionnel dans JSX.",
+    "niveau": "junior",
+    "dependances": [
+      5
+    ],
+    "sidebar_position": 6,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 7,
+    "fichier": "chapitre_7.md",
+    "titre": "Rendu de listes",
+    "description": "Affichage de listes avec la méthode map.",
+    "niveau": "junior",
+    "dependances": [
+      6
+    ],
+    "sidebar_position": 7,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 8,
+    "fichier": "chapitre_8.md",
+    "titre": "Gestion des événements",
+    "description": "Gestion des événements utilisateur.",
+    "niveau": "junior",
+    "dependances": [
+      7
+    ],
+    "sidebar_position": 8,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 9,
+    "fichier": "chapitre_9.md",
+    "titre": "Introduction au State",
+    "description": "Introduction au hook useState.",
+    "niveau": "junior",
+    "dependances": [
+      8
+    ],
+    "sidebar_position": 9,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 10,
+    "fichier": "chapitre_10.md",
+    "titre": "State et Immutabilité",
+    "description": "Mise à jour du state et immutabilité.",
+    "niveau": "junior",
+    "dependances": [
+      9
+    ],
+    "sidebar_position": 10,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 11,
+    "fichier": "chapitre_11.md",
+    "titre": "Formulaires contrôlés",
+    "description": "Gestion des formulaires contrôlés.",
+    "niveau": "junior",
+    "dependances": [
+      10
+    ],
+    "sidebar_position": 11,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 12,
+    "fichier": "chapitre_12.md",
+    "titre": "Introduction à useEffect",
+    "description": "Introduction au hook useEffect.",
+    "niveau": "junior",
+    "dependances": [
+      11
+    ],
+    "sidebar_position": 12,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 13,
+    "fichier": "chapitre_13.md",
+    "titre": "Cycle de vie des effets",
+    "description": "Cycle de vie et dépendances de useEffect.",
+    "niveau": "junior",
+    "dependances": [
+      12
+    ],
+    "sidebar_position": 13,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 14,
+    "fichier": "chapitre_14.md",
+    "titre": "Nettoyage des effets",
+    "description": "Nettoyage des effets (cleanup).",
+    "niveau": "junior",
+    "dependances": [
+      13
+    ],
+    "sidebar_position": 14,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 15,
+    "fichier": "chapitre_15.md",
+    "titre": "Introduction au Context API",
+    "description": "Partage de données avec useContext.",
+    "niveau": "junior",
+    "dependances": [
+      14
+    ],
+    "sidebar_position": 15,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 16,
+    "fichier": "chapitre_16.md",
+    "titre": "Utilisation de useRef",
+    "description": "Accès direct au DOM avec useRef.",
+    "niveau": "junior",
+    "dependances": [
+      15
+    ],
+    "sidebar_position": 16,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 17,
+    "fichier": "chapitre_17.md",
+    "titre": "Introduction à useReducer",
+    "description": "Gestion de state complexe avec useReducer.",
+    "niveau": "junior",
+    "dependances": [
+      16
+    ],
+    "sidebar_position": 17,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 18,
+    "fichier": "chapitre_18.md",
+    "titre": "Optimisation avec useMemo",
+    "description": "Optimisation avec useMemo.",
+    "niveau": "junior",
+    "dependances": [
+      17
+    ],
+    "sidebar_position": 18,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 19,
+    "fichier": "chapitre_19.md",
+    "titre": "Optimisation avec useCallback",
+    "description": "Optimisation avec useCallback.",
+    "niveau": "junior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 19,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 20,
+    "fichier": "chapitre_20.md",
+    "titre": "Mémoïsation de composants",
+    "description": "Utilisation de React.memo.",
+    "niveau": "junior",
+    "dependances": [
+      19
+    ],
+    "sidebar_position": 20,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 21,
+    "fichier": "chapitre_21.md",
+    "titre": "Error Boundaries",
+    "description": "Gestion des erreurs avec Error Boundaries.",
+    "niveau": "junior",
+    "dependances": [
+      20
+    ],
+    "sidebar_position": 21,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 22,
+    "fichier": "chapitre_22.md",
+    "titre": "Fragments React",
+    "description": "Utilisation de Fragments.",
+    "niveau": "junior",
+    "dependances": [
+      21
+    ],
+    "sidebar_position": 22,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 23,
+    "fichier": "chapitre_23.md",
+    "titre": "Portails (Portals)",
+    "description": "Portails pour les modales.",
+    "niveau": "junior",
+    "dependances": [
+      22
+    ],
+    "sidebar_position": 23,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 24,
+    "fichier": "chapitre_24.md",
+    "titre": "Lazy Loading et Suspense",
+    "description": "Chargement asynchrone avec lazy et Suspense.",
+    "niveau": "junior",
+    "dependances": [
+      23
+    ],
+    "sidebar_position": 24,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 25,
+    "fichier": "chapitre_25.md",
+    "titre": "StrictMode",
+    "description": "StrictMode et bonnes pratiques.",
+    "niveau": "junior",
+    "dependances": [
+      24
+    ],
+    "sidebar_position": 25,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 26,
+    "fichier": "chapitre_26.md",
+    "titre": "Accessibilité avec useId",
+    "description": "Utilisation de useId pour l'accessibilité.",
+    "niveau": "junior",
+    "dependances": [
+      25
+    ],
+    "sidebar_position": 26,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 27,
+    "fichier": "chapitre_27.md",
+    "titre": "Composants Serveur (RSC)",
+    "description": "Introduction aux composants serveurs.",
+    "niveau": "junior",
+    "dependances": [
+      26
+    ],
+    "sidebar_position": 27,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 28,
+    "fichier": "chapitre_28.md",
+    "titre": "Directives React",
+    "description": "Directives 'use client' et 'use server'.",
+    "niveau": "junior",
+    "dependances": [
+      27
+    ],
+    "sidebar_position": 28,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 29,
+    "fichier": "chapitre_29.md",
+    "titre": "Formulaires et Actions",
+    "description": "Gestion des formulaires avec useActionState.",
+    "niveau": "junior",
+    "dependances": [
+      28
+    ],
+    "sidebar_position": 29,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 30,
+    "fichier": "chapitre_30.md",
+    "titre": "Hook useFormStatus",
+    "description": "Utilisation de useFormStatus.",
+    "niveau": "junior",
+    "dependances": [
+      29
+    ],
+    "sidebar_position": 30,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 31,
+    "fichier": "chapitre_31.md",
+    "titre": "Hook useTransition",
+    "description": "Gestion des transitions avec useTransition.",
+    "niveau": "junior",
+    "dependances": [
+      30
+    ],
+    "sidebar_position": 31,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 32,
+    "fichier": "chapitre_32.md",
+    "titre": "Hook useDeferredValue",
+    "description": "Valeurs différées avec useDeferredValue.",
+    "niveau": "junior",
+    "dependances": [
+      31
+    ],
+    "sidebar_position": 32,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 33,
+    "fichier": "chapitre_33.md",
+    "titre": "Hook useOptimistic",
+    "description": "Introduction à useOptimistic.",
+    "niveau": "junior",
+    "dependances": [
+      32
+    ],
+    "sidebar_position": 33,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 34,
+    "fichier": "chapitre_34.md",
+    "titre": "Hook useSyncExternalStore",
+    "description": "Utilisation de useSyncExternalStore.",
+    "niveau": "junior",
+    "dependances": [
+      33
+    ],
+    "sidebar_position": 34,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 35,
+    "fichier": "chapitre_35.md",
+    "titre": "Hook useInsertionEffect",
+    "description": "Utilisation de useInsertionEffect.",
+    "niveau": "junior",
+    "dependances": [
+      34
+    ],
+    "sidebar_position": 35,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 36,
+    "fichier": "chapitre_36.md",
+    "titre": "Hook useLayoutEffect",
+    "description": "Utilisation de useLayoutEffect.",
+    "niveau": "junior",
+    "dependances": [
+      35
+    ],
+    "sidebar_position": 36,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 37,
+    "fichier": "chapitre_37.md",
+    "titre": "Hook useDebugValue",
+    "description": "Utilisation de useDebugValue.",
+    "niveau": "junior",
+    "dependances": [
+      36
+    ],
+    "sidebar_position": 37,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 38,
+    "fichier": "chapitre_38.md",
+    "titre": "Hook useImperativeHandle",
+    "description": "Utilisation de useImperativeHandle.",
+    "niveau": "junior",
+    "dependances": [
+      37
+    ],
+    "sidebar_position": 38,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 39,
+    "fichier": "chapitre_39.md",
+    "titre": "Hook use",
+    "description": "Introduction au hook use.",
+    "niveau": "junior",
+    "dependances": [
+      38
+    ],
+    "sidebar_position": 39,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 40,
+    "fichier": "chapitre_40.md",
+    "titre": "Composant Profiler",
+    "description": "Utilisation de Profiler pour les perfs.",
+    "niveau": "junior",
+    "dependances": [
+      39
+    ],
+    "sidebar_position": 40,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 41,
+    "fichier": "chapitre_41.md",
+    "titre": "React Compiler",
+    "description": "Introduction au React Compiler.",
+    "niveau": "junior",
+    "dependances": [
+      40
+    ],
+    "sidebar_position": 41,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 42,
+    "fichier": "chapitre_42.md",
+    "titre": "Configuration Compiler",
+    "description": "Configuration du compilateur.",
+    "niveau": "junior",
+    "dependances": [
+      41
+    ],
+    "sidebar_position": 42,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 43,
+    "fichier": "chapitre_43.md",
+    "titre": "Directives Compiler",
+    "description": "Directives du compilateur.",
+    "niveau": "junior",
+    "dependances": [
+      42
+    ],
+    "sidebar_position": 43,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 44,
+    "fichier": "chapitre_44.md",
+    "titre": "Linting Hooks",
+    "description": "Linting avec eslint-plugin-react-hooks.",
+    "niveau": "junior",
+    "dependances": [
+      43
+    ],
+    "sidebar_position": 44,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 45,
+    "fichier": "chapitre_45.md",
+    "titre": "Règles de pureté",
+    "description": "Règles de pureté des composants.",
+    "niveau": "junior",
+    "dependances": [
+      44
+    ],
+    "sidebar_position": 45,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 46,
+    "fichier": "chapitre_46.md",
+    "titre": "Règles des Hooks",
+    "description": "Règles d'utilisation des hooks.",
+    "niveau": "junior",
+    "dependances": [
+      45
+    ],
+    "sidebar_position": 46,
+    "type": "standard"
+  },
+  {
+    "technologie": "React",
+    "version": "18.x",
+    "contexte": "Formation au développement d'interfaces utilisateur modernes et réactives.",
+    "numero": 47,
+    "fichier": "chapitre_47.md",
+    "titre": "Aller plus loin",
+    "description": "Ressources, projet final et conclusion.",
+    "niveau": "junior",
+    "dependances": [
+      46
+    ],
+    "sidebar_position": 47,
+    "type": "standard"
+  }
+]
