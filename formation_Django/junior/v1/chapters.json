@@ -1,0 +1,690 @@
+[
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 0,
+    "fichier": "chapitre_0.md",
+    "titre": "Avant-propos",
+    "description": "Introduction au parcours et à la philosophie Django.",
+    "niveau": "special",
+    "dependances": [],
+    "sidebar_position": 0,
+    "type": "special"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 1,
+    "fichier": "chapitre_1.md",
+    "titre": "Installation et Environnement",
+    "description": "Installation de Python, environnement virtuel et installation de Django.",
+    "niveau": "junior",
+    "dependances": [
+      0
+    ],
+    "sidebar_position": 1,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 2,
+    "fichier": "chapitre_2.md",
+    "titre": "Structure d'un Projet",
+    "description": "Structure d'un projet Django et création d'une application.",
+    "niveau": "junior",
+    "dependances": [
+      1
+    ],
+    "sidebar_position": 2,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 3,
+    "fichier": "chapitre_3.md",
+    "titre": "Vues et URLs",
+    "description": "Introduction aux vues et au routage URL.",
+    "niveau": "junior",
+    "dependances": [
+      2
+    ],
+    "sidebar_position": 3,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 4,
+    "fichier": "chapitre_4.md",
+    "titre": "Modèles et ORM",
+    "description": "Introduction aux modèles et à l'ORM.",
+    "niveau": "junior",
+    "dependances": [
+      3
+    ],
+    "sidebar_position": 4,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 5,
+    "fichier": "chapitre_5.md",
+    "titre": "Système de Templates",
+    "description": "Introduction au système de templates.",
+    "niveau": "junior",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 5,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 6,
+    "fichier": "chapitre_6.md",
+    "titre": "Interface d'Administration",
+    "description": "Utilisation de l'interface d'administration.",
+    "niveau": "junior",
+    "dependances": [
+      5
+    ],
+    "sidebar_position": 6,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 7,
+    "fichier": "chapitre_7.md",
+    "titre": "Formulaires Django",
+    "description": "Gestion des formulaires HTML.",
+    "niveau": "confirmé",
+    "dependances": [
+      6
+    ],
+    "sidebar_position": 7,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 8,
+    "fichier": "chapitre_8.md",
+    "titre": "Fichiers Statiques et Médias",
+    "description": "Gestion des fichiers statiques et médias.",
+    "niveau": "confirmé",
+    "dependances": [
+      7
+    ],
+    "sidebar_position": 8,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 9,
+    "fichier": "chapitre_9.md",
+    "titre": "Authentification",
+    "description": "Système d'authentification utilisateur.",
+    "niveau": "confirmé",
+    "dependances": [
+      8
+    ],
+    "sidebar_position": 9,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 10,
+    "fichier": "chapitre_10.md",
+    "titre": "Sessions et Cookies",
+    "description": "Gestion des sessions et cookies.",
+    "niveau": "confirmé",
+    "dependances": [
+      9
+    ],
+    "sidebar_position": 10,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 11,
+    "fichier": "chapitre_11.md",
+    "titre": "Tests Automatisés",
+    "description": "Introduction aux tests automatisés.",
+    "niveau": "confirmé",
+    "dependances": [
+      10
+    ],
+    "sidebar_position": 11,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 12,
+    "fichier": "chapitre_12.md",
+    "titre": "Vues Génériques",
+    "description": "Utilisation des vues génériques.",
+    "niveau": "confirmé",
+    "dependances": [
+      11
+    ],
+    "sidebar_position": 12,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 13,
+    "fichier": "chapitre_13.md",
+    "titre": "Migrations",
+    "description": "Gestion des migrations de base de données.",
+    "niveau": "confirmé",
+    "dependances": [
+      12
+    ],
+    "sidebar_position": 13,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 14,
+    "fichier": "chapitre_14.md",
+    "titre": "Signaux Django",
+    "description": "Utilisation des signaux.",
+    "niveau": "confirmé",
+    "dependances": [
+      13
+    ],
+    "sidebar_position": 14,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 15,
+    "fichier": "chapitre_15.md",
+    "titre": "Framework de Messages",
+    "description": "Gestion des messages flash.",
+    "niveau": "confirmé",
+    "dependances": [
+      14
+    ],
+    "sidebar_position": 15,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 16,
+    "fichier": "chapitre_16.md",
+    "titre": "I18n et L10n",
+    "description": "Internationalisation et localisation.",
+    "niveau": "confirmé",
+    "dependances": [
+      15
+    ],
+    "sidebar_position": 16,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 17,
+    "fichier": "chapitre_17.md",
+    "titre": "Logging",
+    "description": "Configuration de la journalisation.",
+    "niveau": "confirmé",
+    "dependances": [
+      16
+    ],
+    "sidebar_position": 17,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 18,
+    "fichier": "chapitre_18.md",
+    "titre": "Pagination",
+    "description": "Pagination des résultats.",
+    "niveau": "confirmé",
+    "dependances": [
+      17
+    ],
+    "sidebar_position": 18,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 19,
+    "fichier": "chapitre_19.md",
+    "titre": "Sécurité Avancée",
+    "description": "Sécurité : XSS, CSRF, SQL Injection.",
+    "niveau": "senior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 19,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 20,
+    "fichier": "chapitre_20.md",
+    "titre": "Optimisation Base de Données",
+    "description": "Optimisation des requêtes ORM.",
+    "niveau": "senior",
+    "dependances": [
+      19
+    ],
+    "sidebar_position": 20,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 21,
+    "fichier": "chapitre_21.md",
+    "titre": "Mise en Cache",
+    "description": "Mise en cache (cache framework).",
+    "niveau": "senior",
+    "dependances": [
+      20
+    ],
+    "sidebar_position": 21,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 22,
+    "fichier": "chapitre_22.md",
+    "titre": "Déploiement et Production",
+    "description": "Déploiement avec WSGI/ASGI.",
+    "niveau": "senior",
+    "dependances": [
+      21
+    ],
+    "sidebar_position": 22,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 23,
+    "fichier": "chapitre_23.md",
+    "titre": "Middleware Avancés",
+    "description": "Middleware personnalisés.",
+    "niveau": "senior",
+    "dependances": [
+      22
+    ],
+    "sidebar_position": 23,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 24,
+    "fichier": "chapitre_24.md",
+    "titre": "Support Asynchrone",
+    "description": "Support asynchrone dans Django.",
+    "niveau": "senior",
+    "dependances": [
+      23
+    ],
+    "sidebar_position": 24,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 25,
+    "fichier": "chapitre_25.md",
+    "titre": "Django et PostgreSQL",
+    "description": "Utilisation de PostgreSQL avec Django.",
+    "niveau": "senior",
+    "dependances": [
+      24
+    ],
+    "sidebar_position": 25,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 26,
+    "fichier": "chapitre_26.md",
+    "titre": "Multi-bases de données",
+    "description": "Gestion de plusieurs bases de données.",
+    "niveau": "senior",
+    "dependances": [
+      25
+    ],
+    "sidebar_position": 26,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 27,
+    "fichier": "chapitre_27.md",
+    "titre": "Transactions",
+    "description": "Transactions de base de données.",
+    "niveau": "senior",
+    "dependances": [
+      26
+    ],
+    "sidebar_position": 27,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 28,
+    "fichier": "chapitre_28.md",
+    "titre": "SQL Brut",
+    "description": "Requêtes SQL brutes.",
+    "niveau": "senior",
+    "dependances": [
+      27
+    ],
+    "sidebar_position": 28,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 29,
+    "fichier": "chapitre_29.md",
+    "titre": "Commandes de Gestion",
+    "description": "Création de commandes de gestion personnalisées.",
+    "niveau": "senior",
+    "dependances": [
+      28
+    ],
+    "sidebar_position": 29,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 30,
+    "fichier": "chapitre_30.md",
+    "titre": "Champs de Modèle Personnalisés",
+    "description": "Création de champs de modèle personnalisés.",
+    "niveau": "expert",
+    "dependances": [
+      29
+    ],
+    "sidebar_position": 30,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 31,
+    "fichier": "chapitre_31.md",
+    "titre": "Tags et Filtres de Template",
+    "description": "Création de tags et filtres de template.",
+    "niveau": "expert",
+    "dependances": [
+      30
+    ],
+    "sidebar_position": 31,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 32,
+    "fichier": "chapitre_32.md",
+    "titre": "Moteurs de Template Personnalisés",
+    "description": "Création de moteurs de template personnalisés.",
+    "niveau": "expert",
+    "dependances": [
+      31
+    ],
+    "sidebar_position": 32,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 33,
+    "fichier": "chapitre_33.md",
+    "titre": "Stockage de Fichiers Personnalisé",
+    "description": "Création de classes de stockage de fichiers.",
+    "niveau": "expert",
+    "dependances": [
+      32
+    ],
+    "sidebar_position": 33,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 34,
+    "fichier": "chapitre_34.md",
+    "titre": "Lookups Personnalisés",
+    "description": "Utilisation de l'API de recherche personnalisée.",
+    "niveau": "expert",
+    "dependances": [
+      33
+    ],
+    "sidebar_position": 34,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 35,
+    "fichier": "chapitre_35.md",
+    "titre": "Applications Réutilisables",
+    "description": "Architecture des applications réutilisables.",
+    "niveau": "expert",
+    "dependances": [
+      34
+    ],
+    "sidebar_position": 35,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 36,
+    "fichier": "chapitre_36.md",
+    "titre": "Internes de Django",
+    "description": "Internes du framework et cycle de vie.",
+    "niveau": "expert",
+    "dependances": [
+      35
+    ],
+    "sidebar_position": 36,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 37,
+    "fichier": "chapitre_37.md",
+    "titre": "Cryptographie et Signature",
+    "description": "Sécurité avancée et cryptographie.",
+    "niveau": "expert",
+    "dependances": [
+      36
+    ],
+    "sidebar_position": 37,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 38,
+    "fichier": "chapitre_38.md",
+    "titre": "Framework de Vérification Système",
+    "description": "Framework de vérification système.",
+    "niveau": "expert",
+    "dependances": [
+      37
+    ],
+    "sidebar_position": 38,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 39,
+    "fichier": "chapitre_39.md",
+    "titre": "GeoDjango",
+    "description": "Séries temporelles et GeoDjango.",
+    "niveau": "expert",
+    "dependances": [
+      38
+    ],
+    "sidebar_position": 39,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 40,
+    "fichier": "chapitre_40.md",
+    "titre": "Sérialisation",
+    "description": "Sérialisation d'objets.",
+    "niveau": "expert",
+    "dependances": [
+      39
+    ],
+    "sidebar_position": 40,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 41,
+    "fichier": "chapitre_41.md",
+    "titre": "Gestion des Erreurs",
+    "description": "Gestion des erreurs et reporting.",
+    "niveau": "expert",
+    "dependances": [
+      40
+    ],
+    "sidebar_position": 41,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 42,
+    "fichier": "chapitre_42.md",
+    "titre": "Performance et Profiling",
+    "description": "Performance et profiling.",
+    "niveau": "expert",
+    "dependances": [
+      41
+    ],
+    "sidebar_position": 42,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 43,
+    "fichier": "chapitre_43.md",
+    "titre": "Contribution à Django",
+    "description": "Contribution au projet Django.",
+    "niveau": "expert",
+    "dependances": [
+      42
+    ],
+    "sidebar_position": 43,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 44,
+    "fichier": "chapitre_44.md",
+    "titre": "Design Patterns Django",
+    "description": "Architecture et design patterns.",
+    "niveau": "expert",
+    "dependances": [
+      43
+    ],
+    "sidebar_position": 44,
+    "type": "standard"
+  },
+  {
+    "technologie": "Django",
+    "version": "5.0",
+    "contexte": "Développement web côté serveur avec Python.",
+    "numero": 45,
+    "fichier": "chapitre_45.md",
+    "titre": "Aller plus loin",
+    "description": "Ressources, exercices et projet final.",
+    "niveau": "expert",
+    "dependances": [
+      44
+    ],
+    "sidebar_position": 45,
+    "type": "standard"
+  }
+]
