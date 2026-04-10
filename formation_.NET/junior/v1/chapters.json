@@ -1,0 +1,705 @@
+[
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 0,
+    "fichier": "chapitre_0.md",
+    "titre": "Avant-propos",
+    "description": "Introduction à la formation et objectifs pédagogiques.",
+    "niveau": "special",
+    "dependances": [],
+    "sidebar_position": 0,
+    "type": "special"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 1,
+    "fichier": "chapitre_1.md",
+    "titre": "Installation et Environnement",
+    "description": "Installation du SDK .NET 8.0 et configuration de l'environnement (VS Code/VS).",
+    "niveau": "junior",
+    "dependances": [
+      0
+    ],
+    "sidebar_position": 1,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 2,
+    "fichier": "chapitre_2.md",
+    "titre": "Anatomie d'un Projet .NET",
+    "description": "Structure d'un projet .NET, fichiers csproj et CLI dotnet.",
+    "niveau": "junior",
+    "dependances": [
+      1
+    ],
+    "sidebar_position": 2,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 3,
+    "fichier": "chapitre_3.md",
+    "titre": "Fondamentaux du C#",
+    "description": "Syntaxe de base C#, types, variables et opérateurs.",
+    "niveau": "junior",
+    "dependances": [
+      2
+    ],
+    "sidebar_position": 3,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 4,
+    "fichier": "chapitre_4.md",
+    "titre": "Flux de Contrôle",
+    "description": "Structures de contrôle (if, switch, boucles).",
+    "niveau": "junior",
+    "dependances": [
+      3
+    ],
+    "sidebar_position": 4,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 5,
+    "fichier": "chapitre_5.md",
+    "titre": "Programmation Orientée Objet",
+    "description": "Classes, objets, héritage et interfaces.",
+    "niveau": "junior",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 5,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 6,
+    "fichier": "chapitre_6.md",
+    "titre": "Gestion des Erreurs",
+    "description": "Gestion des exceptions et blocs try-catch-finally.",
+    "niveau": "junior",
+    "dependances": [
+      5
+    ],
+    "sidebar_position": 6,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 7,
+    "fichier": "chapitre_7.md",
+    "titre": "Collections et Génériques",
+    "description": "Utilisation des collections (List, Dictionary, HashSet).",
+    "niveau": "confirmé",
+    "dependances": [
+      6
+    ],
+    "sidebar_position": 7,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 8,
+    "fichier": "chapitre_8.md",
+    "titre": "LINQ et Requêtes",
+    "description": "Introduction à LINQ pour la manipulation de données.",
+    "niveau": "confirmé",
+    "dependances": [
+      7
+    ],
+    "sidebar_position": 8,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 9,
+    "fichier": "chapitre_9.md",
+    "titre": "Programmation Fonctionnelle C#",
+    "description": "Délégués, événements et expressions lambda.",
+    "niveau": "confirmé",
+    "dependances": [
+      8
+    ],
+    "sidebar_position": 9,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 10,
+    "fichier": "chapitre_10.md",
+    "titre": "Gestion de la Mémoire",
+    "description": "Gestion de la mémoire et Garbage Collector.",
+    "niveau": "confirmé",
+    "dependances": [
+      9
+    ],
+    "sidebar_position": 10,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 11,
+    "fichier": "chapitre_11.md",
+    "titre": "Entrées/Sorties (I/O)",
+    "description": "Utilisation de System.IO pour les fichiers et flux.",
+    "niveau": "confirmé",
+    "dependances": [
+      10
+    ],
+    "sidebar_position": 11,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 12,
+    "fichier": "chapitre_12.md",
+    "titre": "Sérialisation de Données",
+    "description": "Sérialisation JSON avec System.Text.Json.",
+    "niveau": "confirmé",
+    "dependances": [
+      11
+    ],
+    "sidebar_position": 12,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 13,
+    "fichier": "chapitre_13.md",
+    "titre": "Asynchronisme et Tâches",
+    "description": "Programmation asynchrone avec async/await.",
+    "niveau": "senior",
+    "dependances": [
+      12
+    ],
+    "sidebar_position": 13,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 14,
+    "fichier": "chapitre_14.md",
+    "titre": "Concurrence et Parallélisme",
+    "description": "Multithreading et primitives de synchronisation.",
+    "niveau": "senior",
+    "dependances": [
+      13
+    ],
+    "sidebar_position": 14,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 15,
+    "fichier": "chapitre_15.md",
+    "titre": "Injection de Dépendances",
+    "description": "Injection de dépendances dans .NET.",
+    "niveau": "senior",
+    "dependances": [
+      14
+    ],
+    "sidebar_position": 15,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 16,
+    "fichier": "chapitre_16.md",
+    "titre": "Configuration Système",
+    "description": "Configuration et Options Pattern.",
+    "niveau": "senior",
+    "dependances": [
+      15
+    ],
+    "sidebar_position": 16,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 17,
+    "fichier": "chapitre_17.md",
+    "titre": "Logging et Diagnostics",
+    "description": "Logging et monitoring des applications.",
+    "niveau": "senior",
+    "dependances": [
+      16
+    ],
+    "sidebar_position": 17,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 18,
+    "fichier": "chapitre_18.md",
+    "titre": "ASP.NET Core Middleware",
+    "description": "Introduction à ASP.NET Core et Middleware.",
+    "niveau": "confirmé",
+    "dependances": [
+      17
+    ],
+    "sidebar_position": 18,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 19,
+    "fichier": "chapitre_19.md",
+    "titre": "Développement d'API REST",
+    "description": "Création d'API RESTful.",
+    "niveau": "confirmé",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 19,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 20,
+    "fichier": "chapitre_20.md",
+    "titre": "Validation de Données",
+    "description": "Validation des modèles et Data Annotations.",
+    "niveau": "confirmé",
+    "dependances": [
+      19
+    ],
+    "sidebar_position": 20,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 21,
+    "fichier": "chapitre_21.md",
+    "titre": "EF Core : Bases",
+    "description": "Entity Framework Core : Configuration.",
+    "niveau": "confirmé",
+    "dependances": [
+      20
+    ],
+    "sidebar_position": 21,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 22,
+    "fichier": "chapitre_22.md",
+    "titre": "EF Core : Avancé",
+    "description": "EF Core : Migrations et requêtes complexes.",
+    "niveau": "senior",
+    "dependances": [
+      21
+    ],
+    "sidebar_position": 22,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 23,
+    "fichier": "chapitre_23.md",
+    "titre": "Sécurité Web",
+    "description": "Authentification et Autorisation (JWT, Identity).",
+    "niveau": "senior",
+    "dependances": [
+      22
+    ],
+    "sidebar_position": 23,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 24,
+    "fichier": "chapitre_24.md",
+    "titre": "Tests Unitaires",
+    "description": "Tests unitaires avec xUnit.",
+    "niveau": "confirmé",
+    "dependances": [
+      23
+    ],
+    "sidebar_position": 24,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 25,
+    "fichier": "chapitre_25.md",
+    "titre": "Tests d'Intégration",
+    "description": "Tests d'intégration et Mocking.",
+    "niveau": "senior",
+    "dependances": [
+      24
+    ],
+    "sidebar_position": 25,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 26,
+    "fichier": "chapitre_26.md",
+    "titre": "Communication gRPC",
+    "description": "Communication gRPC.",
+    "niveau": "senior",
+    "dependances": [
+      25
+    ],
+    "sidebar_position": 26,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 27,
+    "fichier": "chapitre_27.md",
+    "titre": "Temps Réel avec SignalR",
+    "description": "SignalR pour le temps réel.",
+    "niveau": "senior",
+    "dependances": [
+      26
+    ],
+    "sidebar_position": 27,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 28,
+    "fichier": "chapitre_28.md",
+    "titre": "Caching et Performance",
+    "description": "Caching distribué (Redis).",
+    "niveau": "senior",
+    "dependances": [
+      27
+    ],
+    "sidebar_position": 28,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 29,
+    "fichier": "chapitre_29.md",
+    "titre": "Conteneurisation Docker",
+    "description": "Déploiement et conteneurisation (Docker).",
+    "niveau": "senior",
+    "dependances": [
+      28
+    ],
+    "sidebar_position": 29,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 30,
+    "fichier": "chapitre_30.md",
+    "titre": "Pipeline CI/CD",
+    "description": "CI/CD pour .NET.",
+    "niveau": "senior",
+    "dependances": [
+      29
+    ],
+    "sidebar_position": 30,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 31,
+    "fichier": "chapitre_31.md",
+    "titre": "Performance et Span T",
+    "description": "Optimisation des performances (Span, Memory).",
+    "niveau": "expert",
+    "dependances": [
+      30
+    ],
+    "sidebar_position": 31,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 32,
+    "fichier": "chapitre_32.md",
+    "titre": "Réflexion et Attributs",
+    "description": "Réflexion et métaprogrammation.",
+    "niveau": "expert",
+    "dependances": [
+      31
+    ],
+    "sidebar_position": 32,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 33,
+    "fichier": "chapitre_33.md",
+    "titre": "Source Generators",
+    "description": "Source Generators.",
+    "niveau": "expert",
+    "dependances": [
+      32
+    ],
+    "sidebar_position": 33,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 34,
+    "fichier": "chapitre_34.md",
+    "titre": "Interop Natif",
+    "description": "Interopérabilité avec le code natif (P/Invoke).",
+    "niveau": "expert",
+    "dependances": [
+      33
+    ],
+    "sidebar_position": 34,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 35,
+    "fichier": "chapitre_35.md",
+    "titre": "Cryptographie Avancée",
+    "description": "Sécurité avancée et cryptographie.",
+    "niveau": "expert",
+    "dependances": [
+      34
+    ],
+    "sidebar_position": 35,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 36,
+    "fichier": "chapitre_36.md",
+    "titre": "Clean Architecture",
+    "description": "Architecture propre (Clean Architecture).",
+    "niveau": "expert",
+    "dependances": [
+      35
+    ],
+    "sidebar_position": 36,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 37,
+    "fichier": "chapitre_37.md",
+    "titre": "CQRS et Event Sourcing",
+    "description": "CQRS et Event Sourcing.",
+    "niveau": "expert",
+    "dependances": [
+      36
+    ],
+    "sidebar_position": 37,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 38,
+    "fichier": "chapitre_38.md",
+    "titre": "Microservices et Dapr",
+    "description": "Microservices avec Dapr.",
+    "niveau": "expert",
+    "dependances": [
+      37
+    ],
+    "sidebar_position": 38,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 39,
+    "fichier": "chapitre_39.md",
+    "titre": "Blazor WebAssembly",
+    "description": "Blazor WebAssembly.",
+    "niveau": "confirmé",
+    "dependances": [
+      38
+    ],
+    "sidebar_position": 39,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 40,
+    "fichier": "chapitre_40.md",
+    "titre": "Blazor Server",
+    "description": "Blazor Server.",
+    "niveau": "confirmé",
+    "dependances": [
+      39
+    ],
+    "sidebar_position": 40,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 41,
+    "fichier": "chapitre_41.md",
+    "titre": "Développement MAUI",
+    "description": "MAUI pour le cross-platform.",
+    "niveau": "confirmé",
+    "dependances": [
+      40
+    ],
+    "sidebar_position": 41,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 42,
+    "fichier": "chapitre_42.md",
+    "titre": "Gestion des Packages NuGet",
+    "description": "Gestion des packages NuGet.",
+    "niveau": "confirmé",
+    "dependances": [
+      41
+    ],
+    "sidebar_position": 42,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 43,
+    "fichier": "chapitre_43.md",
+    "titre": "Débogage et Profiling",
+    "description": "Débogage avancé et profiling.",
+    "niveau": "senior",
+    "dependances": [
+      42
+    ],
+    "sidebar_position": 43,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 44,
+    "fichier": "chapitre_44.md",
+    "titre": "Design Patterns .NET",
+    "description": "Patterns de conception en .NET.",
+    "niveau": "senior",
+    "dependances": [
+      43
+    ],
+    "sidebar_position": 44,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 45,
+    "fichier": "chapitre_45.md",
+    "titre": "Cloud-Native .NET",
+    "description": "Architecture Cloud-Native.",
+    "niveau": "expert",
+    "dependances": [
+      44
+    ],
+    "sidebar_position": 45,
+    "type": "standard"
+  },
+  {
+    "technologie": ".NET",
+    "version": "8.0",
+    "contexte": "Développement d'applications robustes et scalables sur l'écosystème Microsoft.",
+    "numero": 46,
+    "fichier": "chapitre_46.md",
+    "titre": "Aller Plus Loin",
+    "description": "Ressources, projet final et conclusion.",
+    "niveau": "expert",
+    "dependances": [
+      45
+    ],
+    "sidebar_position": 46,
+    "type": "standard"
+  }
+]
