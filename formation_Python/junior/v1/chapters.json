@@ -1,0 +1,360 @@
+[
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 0,
+    "fichier": "chapitre_0.md",
+    "titre": "Avant-propos : L'univers Python 3.12",
+    "description": "Introduction à la philosophie Python et installation de l'environnement 3.12.",
+    "niveau": "special",
+    "dependances": [],
+    "sidebar_position": 0,
+    "type": "special"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 1,
+    "fichier": "chapitre_1.md",
+    "titre": "Fondamentaux : Syntaxe et Types",
+    "description": "Syntaxe de base, variables, types primitifs et opérateurs.",
+    "niveau": "junior",
+    "dependances": [
+      0
+    ],
+    "sidebar_position": 1,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 2,
+    "fichier": "chapitre_2.md",
+    "titre": "Contrôle de flux et boucles",
+    "description": "Structures de contrôle : if, for, while.",
+    "niveau": "junior",
+    "dependances": [
+      1
+    ],
+    "sidebar_position": 2,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 3,
+    "fichier": "chapitre_3.md",
+    "titre": "Fonctions et Modularité",
+    "description": "Définition de fonctions, portée et arguments.",
+    "niveau": "junior",
+    "dependances": [
+      2
+    ],
+    "sidebar_position": 3,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 4,
+    "fichier": "chapitre_4.md",
+    "titre": "Structures de données natives",
+    "description": "Gestion des listes, tuples, dictionnaires et sets.",
+    "niveau": "junior",
+    "dependances": [
+      3
+    ],
+    "sidebar_position": 4,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 5,
+    "fichier": "chapitre_5.md",
+    "titre": "Gestion des exceptions",
+    "description": "Gestion des erreurs avec try/except/finally.",
+    "niveau": "junior",
+    "dependances": [
+      4
+    ],
+    "sidebar_position": 5,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 6,
+    "fichier": "chapitre_6.md",
+    "titre": "Entrées/Sorties (I/O)",
+    "description": "Lecture et écriture de fichiers.",
+    "niveau": "junior",
+    "dependances": [
+      5
+    ],
+    "sidebar_position": 6,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 7,
+    "fichier": "chapitre_7.md",
+    "titre": "Programmation Orientée Objet (POO)",
+    "description": "Introduction à la POO : classes, objets, héritage.",
+    "niveau": "confirmé",
+    "dependances": [
+      6
+    ],
+    "sidebar_position": 7,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 8,
+    "fichier": "chapitre_8.md",
+    "titre": "Bibliothèque Standard : Outils système",
+    "description": "Utilisation des modules standards (os, sys, pathlib).",
+    "niveau": "confirmé",
+    "dependances": [
+      7
+    ],
+    "sidebar_position": 8,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 9,
+    "fichier": "chapitre_9.md",
+    "titre": "Gestion du temps et calendriers",
+    "description": "Manipulation de dates et heures.",
+    "niveau": "confirmé",
+    "dependances": [
+      8
+    ],
+    "sidebar_position": 9,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 10,
+    "fichier": "chapitre_10.md",
+    "titre": "Traitement de texte et Regex",
+    "description": "Expressions régulières pour le traitement de texte.",
+    "niveau": "confirmé",
+    "dependances": [
+      9
+    ],
+    "sidebar_position": 10,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 11,
+    "fichier": "chapitre_11.md",
+    "titre": "Formats de données : JSON et CSV",
+    "description": "Gestion des données JSON et CSV.",
+    "niveau": "confirmé",
+    "dependances": [
+      10
+    ],
+    "sidebar_position": 11,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 12,
+    "fichier": "chapitre_12.md",
+    "titre": "Programmation fonctionnelle avancée",
+    "description": "Itérateurs, générateurs et décorateurs.",
+    "niveau": "confirmé",
+    "dependances": [
+      11
+    ],
+    "sidebar_position": 12,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 13,
+    "fichier": "chapitre_13.md",
+    "titre": "Gestionnaires de contexte",
+    "description": "Gestionnaires de contexte (with statement).",
+    "niveau": "confirmé",
+    "dependances": [
+      12
+    ],
+    "sidebar_position": 13,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 14,
+    "fichier": "chapitre_14.md",
+    "titre": "Tests et Qualité logicielle",
+    "description": "Tests unitaires avec unittest et pytest.",
+    "niveau": "confirmé",
+    "dependances": [
+      13
+    ],
+    "sidebar_position": 14,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 15,
+    "fichier": "chapitre_15.md",
+    "titre": "Packaging et Distribution",
+    "description": "Environnements virtuels et gestion des dépendances (pip, venv).",
+    "niveau": "confirmé",
+    "dependances": [
+      14
+    ],
+    "sidebar_position": 15,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 16,
+    "fichier": "chapitre_16.md",
+    "titre": "Asynchronisme : asyncio",
+    "description": "Programmation asynchrone avec asyncio.",
+    "niveau": "senior",
+    "dependances": [
+      15
+    ],
+    "sidebar_position": 16,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 17,
+    "fichier": "chapitre_17.md",
+    "titre": "Concurrence et Parallélisme",
+    "description": "Multithreading et Multiprocessing.",
+    "niveau": "senior",
+    "dependances": [
+      16
+    ],
+    "sidebar_position": 17,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 18,
+    "fichier": "chapitre_18.md",
+    "titre": "Métaprogrammation et Introspection",
+    "description": "Métaprogrammation : introspections, attributs dynamiques.",
+    "niveau": "senior",
+    "dependances": [
+      17
+    ],
+    "sidebar_position": 18,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 19,
+    "fichier": "chapitre_19.md",
+    "titre": "Performance et Profiling",
+    "description": "Optimisation de code et profiling.",
+    "niveau": "senior",
+    "dependances": [
+      18
+    ],
+    "sidebar_position": 19,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 20,
+    "fichier": "chapitre_20.md",
+    "titre": "Sécurité des applications",
+    "description": "Sécurité : cryptographie et bonnes pratiques.",
+    "niveau": "senior",
+    "dependances": [
+      19
+    ],
+    "sidebar_position": 20,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 21,
+    "fichier": "chapitre_21.md",
+    "titre": "Internes : AST et Bytecode",
+    "description": "Internes : AST, bytecode et le compilateur.",
+    "niveau": "expert",
+    "dependances": [
+      20
+    ],
+    "sidebar_position": 21,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 22,
+    "fichier": "chapitre_22.md",
+    "titre": "Extensions C et API CPython",
+    "description": "Extension de Python avec C/C++.",
+    "niveau": "expert",
+    "dependances": [
+      21
+    ],
+    "sidebar_position": 22,
+    "type": "standard"
+  },
+  {
+    "technologie": "Python",
+    "version": "3.12",
+    "contexte": "Parcours complet pour maîtriser Python 3.12, du débutant à l'expert.",
+    "numero": 23,
+    "fichier": "chapitre_23.md",
+    "titre": "Aller plus loin : Contribuer au Core",
+    "description": "Ressources, projet final et ouverture sur le core.",
+    "niveau": "expert",
+    "dependances": [
+      22
+    ],
+    "sidebar_position": 23,
+    "type": "standard"
+  }
+]
